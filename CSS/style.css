@@ -1,0 +1,133 @@
+body {
+  color: #bfc1c8 !important;
+  font-family: "Roboto", "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.5;
+  background-color: #1e202b;
+}
+a {
+  color: #bfc1c8 !important;
+}
+/* Home Page */
+.hero {
+  background-image: url(../Images/banner.png);
+  background-size: cover;
+  padding: 70px 0;
+  min-height: 350px;
+}
+.nav-link {
+  border-radius: 30px;
+  margin-left: 10px;
+  padding: 0 20px !important;
+  border: 2px solid transparent;
+  transition: 0.5s ease;
+}
+.nav-link:hover,
+.active {
+  border: 2px solid #009ad8;
+  color: #009ad8 !important;
+}
+.navbar-toggler {
+  border: 2px solid #009ad8;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+input[type="text"] {
+  outline: none;
+  background-color: #1e202b;
+}
+input[type="submit"] {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  bottom: 8px;
+}
+.forcast {
+  position: relative;
+  top: -150px;
+}
+.forcast .container .row {
+  background-color: #323545;
+}
+.box .box-header {
+  background-color: #2d303e;
+}
+.dark {
+  background-color: #262937;
+}
+.dark .box-header {
+  background-color: #222531;
+}
+.box-content .degree .number {
+  font-size: 90px;
+  font-weight: bold;
+}
+.box-content .degree .image img {
+  width: 100px;
+}
+span {
+  margin-right: 10px;
+}
+.footer {
+  background-color: #262937;
+}
+.social-links a {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #1e202b;
+  color: #009ad8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 25px;
+  margin: 0 5px;
+  transition: 0.5s ease;
+}
+.social-links a:hover {
+  background-color: #4accf2;
+  color: white;
+}
+@media (max-width: 992px) {
+  .navbar-collapse {
+    margin: 15px 0;
+  }
+  .nav-link {
+    border-radius: 0;
+    padding: 20px !important;
+    background-color: #262937;
+    text-align: center;
+    border-bottom: 2px solid #b2b2b2;
+  }
+  .nav-link:hover,
+  .active {
+    border: 2px solid transparent;
+    border-bottom: 2px solid #b2b2b2;
+  }
+  .box-content .degree {
+    flex-direction: row !important;
+    align-items: center;
+  }
+}
+/* Contact Page */
+.link .container .text {
+  background-color: #262937;
+}
+.link .box1 {
+  background-color: #262937;
+}
+.link .content i {
+  color: #009ad8;
+  font-size: 20px;
+}
+.link .content .contact-form input,
+.link .content .contact-form textarea {
+  border: 2px solid #393c48;
+  width: 100%;
+  background-color: transparent;
+  outline: none;
+  color: white;
+}
